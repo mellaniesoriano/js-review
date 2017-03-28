@@ -49,6 +49,11 @@ Console log the variable
 Console log the value at index 1.
 Console log the value at index 3.*/
 
+var japanPrefectures = ["Hokkaidō", "Iwate-ken", "Fukushima-ken", "Nagano-ken", "Niigata-ken"]
+console.log(japanPrefectures);
+console.log(japanPrefectures[1]);
+console.log(japanPrefectures[3]);
+
 /*6.  Variable with Array for its value.
 Declare a variable named planets and assign the value of each planet in our solar system, in the order of distance from the sun.  
 Console log the variable
