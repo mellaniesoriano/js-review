@@ -60,13 +60,23 @@ Console log the variable
 Console log "Earth" using the index position
 Console log "Uranus" using the index position*/
 
+var planets = ["Mercury", "Venus", "Earth", "Mars", "Jupiter", "Saturn", "Uranus", "Neptune"];
+console.log(planets);
+
 /*7. Variables with Array for its value.
 Declare a variable named india and assign the value of 3 popular tourist attractions.  
 Console log the variable.*/
 
+var india = ["Taj Mahal", "Holi Festival", "Ganges"];
+console.log(india);
+
 /*8. Adding new elements to an array.
 Add another popular tourist attraction to the india variable from position 1 of the index.
 (hint, it is not the push() method). Console log the variable.*/
+
+india.splice(1,0, "Amer Fort");
+
+console.log(india);
 
 /*9. Removing the last element from an array.
 Using the same india variable, remove the last element from the array. Console log the variable. */
