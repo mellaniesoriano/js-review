@@ -90,6 +90,10 @@ Console log the new variable. */
 
 var snacks = ["peanut butter cup oreo", "birthday cake oreo", "banana split oreo", "watermelon oreo", "cookie dough oreo", "creamsicle oreo"];
 
+var seperateSnacks = [];
+var removeSnacks = snacks.splice(0,2)
+console.log(removeSnacks);
+
 /*11. Declare two variables with names of your choosing and use the triple comparison operator (===) to compare:
 a) two strings "Racecar" and "racecar"
 b) a string and a number "three" and 3
