@@ -28,8 +28,20 @@ console.log(TokyoOlympicsYear);
 /*3. Variables with Boolean values
 Declare variables named lovesPrepClass, eatsDonuts, drinksGin.  Console log each variable.*/
 
+var lovesPrepClass = true;
+var eatsDonuts = true;
+var drinksGin = false;
+console.log(lovesPrepClass);
+console.log(eatsDonuts);
+console.log(drinksGin);
+
 /*4. Variable with Null values
 Declare variables named completedCodingChallenge, traveledToSpace.  Console log each variable*/
+
+var completedCodingChallenge = null;
+var traveledToSpace = null;
+console.log(completedCodingChallenge);
+console.log(traveledToSpace);
 
 /*5.  Variables with Array for its value.
 Declare a variable named japanPrefectures and assign the value of any 5 prefectures in Japan.
