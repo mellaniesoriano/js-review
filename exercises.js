@@ -100,6 +100,11 @@ b) a string and a number "three" and 3
 
 console log each variable*/
 
+var compare1 = "Racecar" === "racecar";
+var compare2 = "three" === 3;
+console.log(compare1);
+console.log(compare2);
+
 /*12.  Declare a literal object named "hotel" with properties and values set to:
 
     name    => "Hilton"
