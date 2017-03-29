@@ -186,6 +186,23 @@ console log the object */
 
 var roster = ["Alex", "Laura", "Sami", "Jasmine", "Adam", "Dakota", "Jonathon", "Luther", "Kevin", "Vic"];
 
+var aTeam = [];
+var bTeam = [];
+
+function splitTeam(squad){
+  for(var i=0; i<roster.length;i++){
+    if(i%2 === 0){
+      aTeam.push(squad[i]);
+    }else{
+      bTeam.push(squad[i]);
+    }
+  }
+}
+
+splitTeam(roster);
+console.log(aTeam);
+console.log(bTeam);
+
 /*17. Using the japanPrefectures array you created in exercise 5, create a for loop that iterates through this array and console logs the following message:
 
 "The location at i is:  ."  and append the value of i and the value stored within the Array at that index to this string.
