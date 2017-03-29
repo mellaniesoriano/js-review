@@ -209,6 +209,14 @@ console.log(bTeam);
 
 i.e. "The locaton at 0 is Tokyo."*/
 
+function showPrefectures(arr){
+  for(var i=0;i<arr.length;i++){
+    console.log("The location at " + i + " is " + arr[i]);
+  }
+}
+
+showPrefectures(japanPrefectures);
+
 /*18. Declare a function named addUp.
 This function will take a number parameter and add up all the numbers from 1 to that number.
 The parameter will be any number from 1 to 88.*/
