@@ -235,6 +235,21 @@ addUp(14);
 /*19. Declare a variable named oddNumbers and assign it to an empty array
 Use a for loop to add only odd numbers to an Array.  Add 30 odd numbers to the oddNumbers variable starting with the value of 1.*/
 
+var oddNumbers = [];
+
+function addOddNum(num){
+  var sum = 0;
+  for(var i=0; i<60; i++){
+    if(i%2 != 0){
+      oddNumbers.push(num[i]);
+      //console.log(i);
+      sum +=i;
+    }
+  }console.log(sum);
+}
+
+addOddNum(oddNumbers);
+
 /*20.  Declare a function named oldEnough.
 This function takes in a number parameter age and returns a Boolean value true or false if the age is lower than the minimum legal drinking age in the Antigua. Invoke this function by passing in a number value.  Google search Antigua's minimum drinking age to confirm the number value.  Store the return value to a variable named drinkinAlready and console log this variable*/
 
